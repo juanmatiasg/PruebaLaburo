@@ -9,7 +9,7 @@
 
     <SeekBar
         android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleHorizontal"
+        android:splitTrack="false"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="340dp"
@@ -19,8 +19,8 @@
         android:thumb="@mipmap/ic_launcher_bee_round"
         app:layout_constraintEnd_toEndOf="@+id/buttonDecrement"
         app:layout_constraintStart_toStartOf="@+id/buttonIncrement"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tickMark="@color/teal_200" />
+        android:progressDrawable="@drawable/custom_seekbar"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
         android:id="@+id/buttonIncrement"

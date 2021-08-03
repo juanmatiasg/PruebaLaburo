@@ -3,11 +3,10 @@ package com.example.laburoprueba
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.laburoprueba.databinding.ActivityMainBinding
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var binding :ActivityMainBinding
+    lateinit var binding : ActivityMainBinding
     var progressValue:Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
